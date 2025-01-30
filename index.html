@@ -4,16 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hesap Silme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+        }
+        h1 {
+            color: #d9534f;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            font-size: 16px;
+            color: white;
+            background: #d9534f;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #c9302c;
+        }
+        .support-link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .support-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hesabınızı Silme</h1>
-    <p>Hesabınızı silmek için aşağıdaki adımları takip edebilirsiniz:</p>
-    <ol>
-        <li>Uygulamaya giriş yapın.</li>
-        <li>Profil veya Ayarlar sayfasına gidin.</li>
-        <li>"Hesabımı Sil" butonuna tıklayın.</li>
-        <li>Güvenlik doğrulamasını tamamladıktan sonra hesabınız silinecektir.</li>
-    </ol>
-    <p>Eğer hesabınızı silemiyorsanız, <a href="tahinkreb@gmail.com">destek ekibimize</a> e-posta gönderebilirsiniz.</p>
+    <div class="container">
+        <h1>Hesabınızı Silme</h1>
+        <p>Hesabınızı silmek için aşağıdaki adımları takip edebilirsiniz:</p>
+        <ol>
+            <li>Uygulamaya giriş yapın.</li>
+            <li>Profil veya Ayarlar sayfasına gidin.</li>
+            <li>"Hesabımı Sil" butonuna tıklayın.</li>
+            <li>Güvenlik doğrulamasını tamamladıktan sonra hesabınız silinecektir.</li>
+        </ol>
+        <a href="mailto:destek@yourapp.com" class="button">Destek Al</a>
+        <a href="https://yourapp.com" class="support-link">Anasayfaya Dön</a>
+    </div>
 </body>
 </html>
